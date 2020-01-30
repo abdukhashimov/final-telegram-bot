@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-01-31 00:35++05\n"
+"PO-Revision-Date: 2020-01-31 01:00+0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: bot.py:86
+msgid "Logo Design"
+msgstr "Logo Design"
+
+#: bot.py:87
+msgid "Web Development"
+msgstr "Web Development"
+
+#: bot.py:88
+msgid "Mobile Development"
+msgstr "Mobile Development"
+
+#: bot.py:89
+msgid "Telegram Bot"
+msgstr "Telegram Bot"
+
+#: bot.py:90
+msgid "SEO Optimization"
+msgstr "SEO Optimization"
+
+#: bot.py:91
+msgid "E-commerce"
+msgstr "E-commerce"
+
+#: bot.py:105
+msgid "Language you chose is not available yet."
+msgstr "Language you chose is not available yet."
+
+#: bot.py:110
+msgid "Your language: {}"
+msgstr "Your language: {}"
+
+#: bot.py:119
+msgid "{} Done"
+msgstr "{} Done"
+
+#: bot.py:126 bot.py:204
+msgid "Please choose one of our services"
+msgstr "Please choose one of our services"
+
+#: bot.py:141
+msgid "Your orders so far"
+msgstr "Your orders so far"
+
+#: bot.py:185
+msgid "Send My Contact"
+msgstr "Send My Contact"
+
+#: bot.py:186
+msgid "I have other number"
+msgstr "I have other number"
+
+#: bot.py:191
+msgid "Would you mind sharing your contact?"
+msgstr "Would you mind sharing your contact?"
+
+#: bot.py:220 bot.py:243
+msgid "Thank you very much, we will contact you soon"
+msgstr "Thank you very much, we will contact you soon"
+
+#: bot.py:227
+msgid "Please then send me your contact"
+msgstr "Please then send me your contact"
+
+#: bot.py:228
+msgid "Make sure it is in the form as follows"
+msgstr "Make sure it is in the form as follows"
+
+#: bot.py:229 bot.py:251
+msgid "+998 93 578 97 68"
+msgstr "+998 93 578 97 68"
+
+#: bot.py:230
+msgid "Go ahead"
+msgstr "Go ahead"
+
+#: bot.py:250
+msgid "Please make sure that your contact's pattern is as follows"
+msgstr "Please make sure that your contact's pattern is as follows"

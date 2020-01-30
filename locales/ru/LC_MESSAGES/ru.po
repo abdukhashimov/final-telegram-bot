@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-01-31 00:35++05\n"
+"PO-Revision-Date: 2020-01-31 01:48+0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru\n"
+
+#: bot.py:86
+msgid "Logo Design"
+msgstr "Дизайн логотипа"
+
+#: bot.py:87
+msgid "Web Development"
+msgstr "Веб-разработка"
+
+#: bot.py:88
+msgid "Mobile Development"
+msgstr "Разработка приложений"
+
+#: bot.py:89
+msgid "Telegram Bot"
+msgstr "Telegram-Бот"
+
+#: bot.py:90
+msgid "SEO Optimization"
+msgstr "SEO оптимизация"
+
+#: bot.py:91
+msgid "E-commerce"
+msgstr "Интернет-магазин"
+
+#: bot.py:105
+msgid "Language you chose is not available yet."
+msgstr "Язык, который вы выбрали, пока недоступен."
+
+#: bot.py:110
+msgid "Your language: {}"
+msgstr "Ваш язык: {}"
+
+#: bot.py:119
+msgid "{} Done"
+msgstr "{} Продолжать"
+
+#: bot.py:126 bot.py:204
+msgid "Please choose one of our services"
+msgstr "Пожалуйста, выберите одну из наших услуг"
+
+#: bot.py:141
+msgid "Your orders so far"
+msgstr "Ваши заказы"
+
+#: bot.py:185
+msgid "Send My Contact"
+msgstr "Отправить мой контакт"
+
+#: bot.py:186
+msgid "I have other number"
+msgstr "У меня есть другой номер"
+
+#: bot.py:191
+msgid "Would you mind sharing your contact?"
+msgstr "Не могли бы вы поделиться своим контактом?"
+
+#: bot.py:220 bot.py:243
+msgid "Thank you very much, we will contact you soon"
+msgstr "Большое спасибо, мы скоро с вами свяжемся"
+
+#: bot.py:227
+msgid "Please then send me your contact"
+msgstr "Пожалуйста, отправьте мне свой контакт и"
+
+#: bot.py:228
+msgid "Make sure it is in the form as follows"
+msgstr "Убедитесь, что ваш контакт в следующей форме"
+
+#: bot.py:229 bot.py:251
+msgid "+998 93 578 97 68"
+msgstr "+998 93 578 97 68"
+
+#: bot.py:230
+msgid "Go ahead"
+msgstr "Продолжайте"
+
+#: bot.py:250
+msgid "Please make sure that your contact's pattern is as follows"
+msgstr "Убедитесь, что ваш контакт в следующей форме"
