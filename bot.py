@@ -18,12 +18,12 @@ from telegram.ext import (
 )
 # end of importing
 
-# logging.basicConfig(
-#     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-#     level=logging.INFO
-# )
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    level=logging.INFO
+)
 
-# logger = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)
 # ###################################################################
 
 
@@ -312,7 +312,7 @@ def main():
     )
 
     dp.add_handler(conv_handler)
-    # dp.add_error_handler(error_handler)
+    dp.add_error_handler(error_handler)
     updater.start_webhook(listen="0.0.0.0",
                           port=int(PORT),
                           url_path=TOKEN)

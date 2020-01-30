@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-01-31 00:59+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#: bot.py:86
+msgid "Logo Design"
+msgstr ""
+
+#: bot.py:87
+msgid "Web Development"
+msgstr ""
+
+#: bot.py:88
+msgid "Mobile Development"
+msgstr ""
+
+#: bot.py:89
+msgid "Telegram Bot"
+msgstr ""
+
+#: bot.py:90
+msgid "SEO Optimization"
+msgstr ""
+
+#: bot.py:91
+msgid "E-commerce"
+msgstr ""
+
+#: bot.py:105
+msgid "Language you chose is not available yet."
+msgstr ""
+
+#: bot.py:110
+msgid "Your language: {}"
+msgstr ""
+
+#: bot.py:119
+msgid "{} Done"
+msgstr ""
+
+#: bot.py:126 bot.py:204
+msgid "Please choose one of our services"
+msgstr ""
+
+#: bot.py:141
+msgid "Your orders so far"
+msgstr ""
+
+#: bot.py:185
+msgid "Send My Contact"
+msgstr ""
+
+#: bot.py:186
+msgid "I have other number"
+msgstr ""
+
+#: bot.py:191
+msgid "Would you mind sharing your contact?"
+msgstr ""
+
+#: bot.py:220 bot.py:243
+msgid "Thank you very much, we will contact you soon"
+msgstr ""
+
+#: bot.py:227
+msgid "Please then send me your contact"
+msgstr ""
+
+#: bot.py:228
+msgid "Make sure it is in the form as follows"
+msgstr ""
+
+#: bot.py:229 bot.py:251
+msgid "+998 93 578 97 68"
+msgstr ""
+
+#: bot.py:230
+msgid "Go ahead"
+msgstr ""
+
+#: bot.py:250
+msgid "Please make sure that your contact's pattern is as follows"
+msgstr ""
