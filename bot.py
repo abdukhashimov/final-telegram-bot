@@ -281,7 +281,7 @@ def error_handler(update, context):
 def main():
     # 1017586683:AAH9YvHhXuIrWRiQkz0VdbY6zJEkMe23l9c
     TOKEN = '1017586683:AAH9YvHhXuIrWRiQkz0VdbY6zJEkMe23l9c'
-    NAME = ""
+    NAME = "telegram-bot-test-first"
     PORT = os.environ.get('PORT')
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
