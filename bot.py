@@ -229,7 +229,7 @@ def contact_send(update, context):
     contact = update.message
     context.bot.send_message(
         chat_id='956620330',
-        text='PHONE NUMBER: +'+(contact.contact.phone_number) +
+        text='FROM BOT\nPHONE NUMBER: '+(contact.contact.phone_number) +
         '\n------------------------\n'
     )
     update.message.reply_text(
@@ -256,7 +256,7 @@ def contact_request(update, context):
     contact = update.message.text
     context.bot.send_message(
         chat_id='956620330',
-        text='PHONE NUMBER: ' + str(contact) + '\n------------------------\n'
+        text='FROM BOT\nPHONE NUMBER: +' + str(contact) + '\n------------------------\n'
     )
     update.message.reply_text(
         _("Thank you very much, we will contact you soon")
@@ -279,8 +279,11 @@ def error_handler(update, context):
 
 
 def main():
+    # first-bot
     # 1017586683:AAH9YvHhXuIrWRiQkz0VdbY6zJEkMe23l9c
-    TOKEN = '1017586683:AAH9YvHhXuIrWRiQkz0VdbY6zJEkMe23l9c'
+    # 856336707:AAFRfR3dP7XZLZL5MDuR2D2HitAvfUeYt94
+    # greatsoftbot
+    TOKEN = '856336707:AAFRfR3dP7XZLZL5MDuR2D2HitAvfUeYt94'
     NAME = "telegram-bot-test-first"
     PORT = os.environ.get('PORT')
     updater = Updater(TOKEN, use_context=True)
