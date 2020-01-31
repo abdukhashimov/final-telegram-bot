@@ -187,7 +187,7 @@ def options(update, context):
         )
 
         bot.send_message(
-            chat_id='956620330',
+            chat_id='694902869',
             text="Possible Client\n{} : @{}\nOrders: \n{}".format(
                 query.message.chat.first_name,
                 query.message.chat.username,
@@ -228,8 +228,8 @@ def contact_send(update, context):
     _ = return_translation_function(user_id)
     contact = update.message
     context.bot.send_message(
-        chat_id='956620330',
-        text='FROM BOT\nPHONE NUMBER: '+(contact.contact.phone_number) +
+        chat_id='694902869',
+        text='FROM BOT\nPHONE NUMBER: +'+(contact.contact.phone_number) +
         '\n------------------------\n'
     )
     update.message.reply_text(
@@ -255,8 +255,8 @@ def contact_request(update, context):
     _ = return_translation_function(user_id)
     contact = update.message.text
     context.bot.send_message(
-        chat_id='956620330',
-        text='FROM BOT\nPHONE NUMBER: +' + str(contact) + '\n------------------------\n'
+        chat_id='694902869',
+        text='FROM BOT\nPHONE NUMBER: ' + str(contact) + '\n------------------------\n'
     )
     update.message.reply_text(
         _("Thank you very much, we will contact you soon")
