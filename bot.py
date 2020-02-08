@@ -6,7 +6,7 @@ from gettext import gettext as _
 from gettext import translation
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup,\
-    KeyboardButton, ReplyKeyboardMarkup
+    KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove
 
 from telegram.ext import (
     Updater,
@@ -224,13 +224,15 @@ def options(update, context):
 
 
 def contact_send(update, context):
+    reply_markup = ReplyKeyboardRemove()
     user_id = str(update.message.from_user.id)
     _ = return_translation_function(user_id)
     contact = update.message
     context.bot.send_message(
         chat_id='694902869',
         text='FROM BOT\nPHONE NUMBER: +'+(contact.contact.phone_number) +
-        '\n------------------------\n'
+        '\n------------------------\n',
+        reply_markup=reply_markup
     )
     update.message.reply_text(
         _("Thank you very much, we will contact you soon")
@@ -251,12 +253,15 @@ def contact_get(update, context):
 
 
 def contact_request(update, context):
+    reply_markup = ReplyKeyboardRemove()
     user_id = str(update.message.from_user.id)
     _ = return_translation_function(user_id)
     contact = update.message.text
     context.bot.send_message(
         chat_id='694902869',
-        text='FROM BOT\nPHONE NUMBER: ' + str(contact) + '\n------------------------\n'
+        text='FROM BOT\nPHONE NUMBER: ' +
+        str(contact) + '\n------------------------\n',
+        reply_markup=reply_markup
     )
     update.message.reply_text(
         _("Thank you very much, we will contact you soon")
